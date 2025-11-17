@@ -1,8 +1,7 @@
 # Portfolio-Project
 A personal portfolio website showcasing the projects, skills, and education of Mamun, a passionate software developer from Bangladesh.
-Mamun's Personal Portfolio Website
 
-Welcome to the repository for my personal portfolio website. This site is a showcase of my journey as a passionate developer, detailing my skills, the projects I've built, and my educational background.
+Welcome to the repository for my `personal portfolio website`. This site is a showcase of my journey as a passionate developer, detailing my skills, the projects I've built, and my educational background.
 
 🚀 About Me
 
@@ -48,18 +47,3 @@ HTML5: For the structure and content of the website.
 CSS3: For all the styling, layout, and responsiveness.
 
 JavaScript: For interactive elements like expandable "Read More" sections and the contact form toggle.
-
-View the Site
-
-To view the website, simply clone this repository and open the index.html file in your local web browser.
-
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
-# Open index.html in your browser
-
-
-Or, you can deploy it to any static site hosting service like GitHub Pages, Netlify, or Vercel.
-
-Contact
-
-Feel free to reach out to me through the Contact Me page on the website!
