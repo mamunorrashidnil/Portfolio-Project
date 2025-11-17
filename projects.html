@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <section class="hero">
+    <img src="assets/images/profile.png" alt="Mamun" class="profile-img">
+    <h1>Hi, I'm Mamun</h1>
+    <p>A passionate developer from Bangladesh.</p>
+              <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+  </section>
+
+  <section class="projects">
+    <div class="project-card">
+      <img src="assets/images/bus.jpg" alt="Smart Bus Payment">
+      <h3>Smart Bus Payment System</h3>
+      <button class="expand-btn" onclick="toggleExpand('bus')">Read More</button>
+        <p id="bus" class="expandable">
+        A smart NFC-based bus payment system built with NFC reader, ESP32, GPS, servo motor, and battery. 
+        Passengers punch their NFC card when entering and leaving the bus, automatically calculating and deducting fares.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/images/dustbin.jpg" alt="Smart Dustbin">
+      <h3>Smart Dustbin</h3>
+      <button class="expand-btn" onclick="toggleExpand('dustbin')">Read More</button>
+      <p id="dustbin" class="expandable">
+        IoT-based smart dustbin using ESP32, ultrasonic and IR sensors. It detects when the bin is full 
+        and automatically sends an alert message to the in-charge: "Dustbin Full".
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/images/streetlight.jpg" alt="Smart Street Light">
+      <h3>Smart Street Light</h3>
+      <button class="expand-btn" onclick="toggleExpand('street')">Read More</button>
+      <p id="street" class="expandable">
+        Smart lighting system with ESP32, relay, MOSFET, ultrasonic sensor, and light sensor. 
+        Lights remain off during the day, dim at night, and switch to full brightness when motion is detected.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/images/pharmacy.jpg" alt="Pharmacy Management">
+      <h3>Pharmacy Management System</h3>
+      <button class="expand-btn" onclick="toggleExpand('pharmacy')">Read More</button>
+      <p id="pharmacy" class="expandable">
+        A PHP, MySQL, HTML, and CSS-based platform with admin and employee panels to register employees, 
+        manage medicines, handle sales, and generate bills efficiently.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/images/supershop.jpg" alt="Super Shop Management">
+      <h3>Super Shop Management System</h3>
+      <button class="expand-btn" onclick="toggleExpand('shop')">Read More</button>
+      <p id="shop" class="expandable">
+        A C programming-based application with features similar to the Pharmacy Management System, 
+        designed for shop inventory, sales, and employee management.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/images/portfolio.jpg" alt="Portfolio">
+      <h3>Portfolio Website</h3>
+      <button class="expand-btn" onclick="toggleExpand('portfolio')">Read More</button>
+      <p id="portfolio" class="expandable">
+        This portfolio website is designed with HTML, CSS, and JavaScript, showcasing my projects, skills, and contact details in a modern design.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p class="footer-text">© 2025 Mamun. All rights reserved.</p>
+  </footer>
+</body>
+</html>
